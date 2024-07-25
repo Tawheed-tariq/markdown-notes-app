@@ -6,7 +6,7 @@ COPY package*.json ./
 
 RUN npm install
 
-RUN npm install vite
+RUN npm react-mde --legacy-peer-deps
 
 COPY . .
 
